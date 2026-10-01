@@ -1,0 +1,17 @@
+# Local configuration and Google service-account credentials
+.env
+.env.*
+!.env.example
+tidy-arcade-*.json
+credentials.json
+*.pem
+*.key
+
+# Python and local development files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db
